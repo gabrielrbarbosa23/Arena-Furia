@@ -41,6 +41,8 @@ npm run dev
 
 ## 📸 Demonstração
 
+https://github.com/user-attachments/assets/5c9fec64-452c-4003-b611-0f86581d91bd
+
 
 ## 📫 Contato
 
