@@ -1,0 +1,121 @@
+.container {
+    padding: 2rem;
+    background-color: var(--preto-2);
+    color: var(--branco);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #ccc;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.liveButton{
+    width: max-content;
+}
+
+.section {
+    margin-bottom: 8rem;
+}
+
+.lives_calendar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsList {
+    list-style: none;
+    padding: 0;
+}
+
+.newsItem {
+    background-color: #1A1A1A;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+}
+
+.liveButton {
+    background-color: #FFD700;
+    color: #000;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.liveButton:hover {
+    transform: scale(1.04);
+}
+
+.teamBlock {
+    margin-top: 1rem;
+}
+
+.playersList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.playersList li {
+    margin: 0.3rem 0;
+}
+
+.playersList a {
+    color: var(--amarelo);
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+}
+
+.playersList a:hover {
+    text-decoration: underline;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calendar th,
+.calendar td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.calendar th {
+    background-color: #333;
+    color: #FFD700;
+    text-transform: uppercase;
+}
+
+.calendar td {
+    color: #fff;
+}
+
+.calendar tr:last-child td {
+    border-bottom: none;
+}

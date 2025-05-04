@@ -1,0 +1,65 @@
+.container {
+    padding: 2rem;
+    background-color: var(--preto-2);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #ccc;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.card h2 {
+    color: #FFD700;
+    margin-bottom: 0.5rem;
+}
+
+.geral {
+    border-left: 4px solid #FFD700;
+}
+
+.admin {
+    border-left: 4px solid #00FFFF;
+}
+
+.cs {
+    border-left: 4px solid #FF4C4C;
+}
+
+.link {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: text-decoration 0.2s ease;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
